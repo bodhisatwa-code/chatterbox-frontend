@@ -1,0 +1,28 @@
+.all-chats{
+    width : 100%;
+    height: 76vh;
+    overflow: auto;
+}
+.all-chats__single-chat{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #73628a31;
+    padding: 0.5em 0;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s;
+}
+.all-chats__single-chat:hover{
+    background-color: #eaeaea;
+}
+.all-chats__single-chat__user-avatar{
+    width : 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: 50%;
+    margin : 0 0.5em;
+}
+.all-chats__single-chat__chat-info{
+    display: flex;
+    justify-content: space-between;
+}

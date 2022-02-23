@@ -1,0 +1,29 @@
+.user-panel{
+    background : #ebebd3;
+    padding : 1em;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+}
+.user-panel__avatar{
+    width : 4em;
+    height : 4em;
+    object-fit : cover;
+}
+.user-panel__actions{
+    display: flex;
+    justify-content: space-between;
+}
+.user-panel__action-icon {
+    font-size: 1.5em;
+    margin : 0 0.5em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.user-panel__action-icon:hover{
+    transform: translateY(-3px);
+}
+.user-panel__action-icon:active{
+    transform: translateY(3px);
+}
